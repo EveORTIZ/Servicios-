@@ -1,0 +1,81 @@
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(6, 128, 128) ;
+    width: 100%;
+}
+header ul{
+    list-style-type:none;
+    display: flex;
+    flex-direction: row;
+}
+header ul li{
+    margin: 35px;
+    font-size: 30px;
+    color: rgb(6, 6, 53);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+img{
+    width: 150px;
+}
+h1{
+    font-size: 25px;
+    color: rgb(2, 2, 75);
+    font-family: monospace;
+}
+p{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;   
+}
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 0 0 0 0;
+    background-color: rgb(59, 209, 167);
+}
+.caja{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.caja img{
+     border-radius: 51%;
+}
+.caja p{
+    font-size: 18px;
+}
+.presentacion {
+   
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 0 0 0;
+    background-color: rgb(22, 152, 152);
+}
+.presentacion p{
+    width: 78%;
+    font-size: 25px;
+    font-family: monospace;
+}
+a{
+    text-decoration: none;
+}
+#nosotros{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#nosotros iframe{
+    padding: 10px;
+    margin: 40px;
+
+}
